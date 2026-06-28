@@ -204,7 +204,6 @@ resource "aws_lambda_function" "this" {
     ignore_changes = [
       image_uri,
       code_sha256,
-      last_modified,
       source_code_size,
     ]
   }
